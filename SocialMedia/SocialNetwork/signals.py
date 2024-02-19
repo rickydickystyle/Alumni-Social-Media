@@ -11,7 +11,7 @@ from .models import User, Invitation
 @receiver(post_save, sender=User)
 def send_email_to_lecturer(sender, instance, created, **kwargs):
     if created and instance.role == instance.Role.LECTURER:
-        subject = 'Account Information'
+        subject = 'Thông tin về tài khoản'
         message = f'Chào thầy/cô {instance.get_full_name()},'
         f'\n\nTài khoản thầy cô đã được tạo.\nTài khoản: {instance.username}'
         f'\nMật khẩu: {settings.PASSWORD_LECTURER_DEFAULT}\n\n '
