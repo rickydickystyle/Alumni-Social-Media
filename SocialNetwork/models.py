@@ -55,7 +55,7 @@ class BaseModel(models.Model):
 class PostBaseModel(BaseModel):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     comment_blocked = models.BooleanField(default=False)
-    shared_post = models.ForeignKey('self', on_delete=models.CASCADE, null=True)
+    shared_post = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:
         abstract = True

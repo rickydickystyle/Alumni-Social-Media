@@ -122,9 +122,9 @@ AUTH_PASSWORD_VALIDATORS = [
 import cloudinary
 
 cloudinary.config(
-    cloud_name="CLOUDINARY_NAME",
-    api_key="CLOUDINARY_KEY",
-    api_secret="CLOUDINARY_SECRET"
+    cloud_name="dciqygjtr",
+    api_key="586832175499627",
+    api_secret="vvnxzWXMhesqDFseP_f5BJicn5E"
 )
 
 OAUTH2_PROVIDER = {
@@ -167,13 +167,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "EMAIL_HOST_USER"
-EMAIL_HOST_PASSWORD = "EMAIL_HOST_PASSWORD"
+EMAIL_HOST_USER = "lochuynh2510@gmail.com"
+EMAIL_HOST_PASSWORD = "isrf jwvj qydl atae"
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
 
-PASSWORD_LECTURER_DEFAULT = "PASSWORD_LECTURER_DEFAULT"
+PASSWORD_LECTURER_DEFAULT = "ou@123"
 
-CLIENT_ID = "CLIENT_ID"
-CLIENT_SECRET = "CLIENT_SECRET"
+CLIENT_ID = "y153aErkGXjHnQxSpAMBFrIlwiBnBLioItysTOMt"
+CLIENT_SECRET = "H1KvWv3v1DipU5UbLRwD4pyMSQPOVp7zCZDX5RO8yVNPb2CVReEbJepWQnK1WWZugpbWq8SUHfB7X6ie8L5gtuKQAfe4OIfrFenXqULSvyntQpGhhWZE1ZpjBcpX8aFs"
